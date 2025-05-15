@@ -1,0 +1,54 @@
+article p{
+    background-color: blue;
+    color:rgb(169, 255, 184);   
+    padding: 20px;
+}
+
+article > p{
+    background-color:darkslategrey;
+    padding: 20px;
+}
+
+article + p {
+    background-color:brown;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+article ~ p {
+    background-color:cornflowerblue;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+h3{
+    color: red;
+}
+
+h3:first-of-type{
+    color: chartreuse;
+}
+
+input:in-range{
+    border: 3px solid green;
+}
+
+input:out-of-range{
+    border: 3px solid rgb(182, 111, 17);
+}
+
+input:required{
+    background-color: dodgerblue;
+}
+
+input:focus{
+    background-color: peru;
+}
+
+p::first-letter{
+    color: blueviolet;
+}
+p::first-line{
+    color: darkblue;
+}
