@@ -1,0 +1,153 @@
+/* div#translate{
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    transform: translate(100px, 50px);
+    padding: 10px;
+}
+
+div#rotate{
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    transform: rotate(-90deg);
+
+}
+
+div#scale{
+   
+
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    transform: scale(2,4);
+    margin: 150px;
+
+
+}
+
+div#scaleX{
+   
+
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    transform: scaleX(3);
+    margin: 150px;
+
+
+}
+
+div#scaleY{
+   
+
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    background-color:yellowgreen;
+    color: white;
+    transform: scaleY(3);
+    margin: 150px;
+
+
+}
+
+div#skewX{
+   
+
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(0, 238, 255);
+    color: white;
+    transform: skewX(-40deg);
+    margin: 150px;
+
+
+}
+
+div#skewY{
+   
+
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    background-color:saddlebrown;
+    color: white;
+    transform: skewY(-40deg);
+    margin: 150px;
+
+
+}
+div{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    transition: background 3s, border-radius 5s;
+}
+
+div:hover{
+    background: blue;
+    border-radius: 50%;
+}    width: 200px;
+    height: 200px; */
+
+
+#speedsters img{
+    transform: scale(1);
+    transition: 3s ease-in-out;
+
+}
+
+#speedsters:hover img{
+    transform: scale(1.3);
+}
+
+#hipsters img{
+    margin-left: 0px;
+    transition: 3s ease-in-out;
+
+}
+
+#hipsters:hover img{
+    margin-left: 30px;
+}
+
+#hipsters img{
+    margin-left: 0px;
+    transition: .3s ease-in-out;
+
+}
+
+#hipsters:hover img{
+    margin-left: 30px;
+}
+
+#shadow img{
+    filter: blur(3px);
+    transition: 3s ease-in-out;
+
+}
+
+#shadow:hover img{
+    filter: blur(0);
+}
+
+#engineers img{
+    filter: grayscale(100%);
+    transition: 3s ease-in-out;
+
+}
+
+#engineers:hover img{
+    filter: grayscale(0);
+}
+
+
