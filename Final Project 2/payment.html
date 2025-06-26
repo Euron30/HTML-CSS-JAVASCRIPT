@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment - Dream Car Customizer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html"><img class="logo" src="images/logo.jpg"></a>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Support</a></li>
+    </ul>
+  </nav>
+
+  <div class="payment-container">
+    <h2>Payment Details</h2>
+    <form action="#" method="POST">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="car">Selected Car</label>
+      <select id="car" name="car">
+        <option>Mercedes-AMG GT63S</option>
+        <option>BMW M4 Competition</option>
+        <option>Audi RS7</option>
+        <option>Audi R8</option>
+        <option>BMW M3 CS</option>
+      </select>
+
+      <label for="card">Card Number</label>
+      <input type="text" id="card" name="card" placeholder="1234 5678 9012 3456" required>
+
+      <label for="exp">Expiry Date</label>
+      <input type="text" id="exp" name="exp" placeholder="MM/YY" required>
+
+      <label for="cvv">CVV</label>
+      <input type="text" id="cvv" name="cvv" placeholder="123" required>
+
+      <button type="submit">Complete Payment</button>
+    </form>
+  </div>
+
+  <footer>
+    © 2025 Dream Car Customizer. All rights reserved.
+  </footer>
+</body>
+</html>
